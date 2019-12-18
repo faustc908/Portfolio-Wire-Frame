@@ -1,0 +1,34 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+
+header, .projects, .aboutme, .skills, footer{
+  border: 1px solid grey;
+  text-align: center;
+  float: center;
+  width: 100%;
+  height: 100px; 
+  background-color:rgb(194, 181, 181);
+  padding: 10px;
+}
+
+.myname{
+  float:left;
+}
+
+.nav{
+  float:right;
+}
+
+header{
+  height: 45px;
+}
+ 
+.aboutme, .projects, .skills{
+  height: 250px;
+}
+
+footer{
+  height: 70px;
+}
